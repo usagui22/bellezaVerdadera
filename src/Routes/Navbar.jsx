@@ -1,6 +1,8 @@
-import { Title } from "./Title"
 
-const Navbar = () => {
+import { Title } from "../components/Title"
+
+const Navbar = () => {  
+  
   return (
     <>
       <Title/>
