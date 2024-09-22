@@ -2,6 +2,8 @@
 
 export const Galery = () => {
   return (
-    <div>Galery</div>
+    <div>
+      <h3>Galeria de Imagenes sobre Nuestras Clientas</h3>
+    </div>
   )
 }

@@ -1,10 +1,12 @@
-import logoBV from "../assets/Logo.jpg"
+import logoBV from "../assets/Logo-Nav.jpg"
+import "../style/Title.css"
 
 export const Title = () => {
   return (
-    <>
-      <h3>Belleza Verdadera</h3>
-      <img src={logoBV} alt="logoBV"/>
-    </>    
+    <div className="title-contenedor">
+      <h1 className="title-name">Belleza Verdadera</h1>
+      
+      <img src={logoBV} alt="logoBV" className="title-img"/>
+    </div>    
   )
 }

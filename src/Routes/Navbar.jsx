@@ -1,18 +1,28 @@
-
+import { NavLink } from "react-router-dom"
 import { Title } from "../components/Title"
+import "../style/Navbar.css"
+import { useState } from "react";
 
 const Navbar = () => {  
-  
+  const {menuOpen, setmenuOpen} = useState(false);
   return (
-    <>
-      <Title/>
-      <ul className="contenido_nav">
-        <li>Acerca de</li>
-        <li>Galeria</li>
-        <li>Recomendaciones</li>
-        <li>Contactanos</li>
+    <nav className="nav-contenedor">
+      <NavLink to={"/"}>
+        <Title />
+      </NavLink>
+      <div className="menu" onClick={()=>{setmenuOpen(!menuOpen);}}>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul className={menuOpen? "open": ""}>
+        <li><NavLink to={"/about"}>Acerca de</NavLink></li>
+        <li><NavLink to={"/galery"}>Galeria</NavLink></li>
+        <li><NavLink to={"/experience"}>Recomendaciones</NavLink></li>
+        <li><NavLink to={"/contact"}>Contactanos</NavLink></li>
       </ul>
-    </>
+    </nav>
   )
 }
 

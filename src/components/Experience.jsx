@@ -1,10 +1,16 @@
 
 const persona=[];//get personas que recomienden
-export const Recommendations = () => {
+export const Experience = () => {
   return (
     <table>
+      <h3>Experiencias de Nuestros Clientes</h3>
       <thead>
-        {
+        <tr>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+      {
           persona.map((p)=>{
             return(
               <tr key={p.id}>
@@ -15,7 +21,7 @@ export const Recommendations = () => {
             )
           })
         }
-      </thead>
+      </tbody>
     </table>
   )
 }

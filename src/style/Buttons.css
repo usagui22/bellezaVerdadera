@@ -1,0 +1,18 @@
+.button-reserva {    
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    width: 140px;
+    text-transform: capitalize;
+    background-color:  #FF5733 ;
+    border-radius: 15px;    
+    padding: 18px 36px;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;    
+}
+.button-reserva a{
+    text-decoration: none;
+    color: white;
+}

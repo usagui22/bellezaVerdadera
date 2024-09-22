@@ -1,0 +1,19 @@
+.title-contenedor{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    overflow: hidden;
+    padding: 5px;
+}
+h1 {
+    text-align: left;
+    width: 150px;
+    margin: 10px;
+    float: left;
+    color: white;
+}
+img {
+    float: left;
+    margin: 10px;    
+    width: 90px;
+}

@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom"
-
+import "../style/Buttons.css"
 
 export const ButtonReservation = () => {
   return (
-    <button type="submit">
+    <button type="submit" className="button-reserva adentro">
       <Link to={"/form-reservation"}>
         Reserva tu cupo aqui!
       </Link>      
