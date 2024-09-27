@@ -1,0 +1,10 @@
+.carta-contenedor{
+    background-color: #fbbdf0;
+    
+}
+.carta-contenedor h2 p{
+    background-color: white;
+    color: palevioletred;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}

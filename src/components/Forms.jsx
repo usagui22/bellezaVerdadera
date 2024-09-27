@@ -1,10 +1,10 @@
-import { Form } from "react-router-dom"
+
 import { ButtonAcept } from "./Buttons"
 
 
 export const FormReservation = () => {
   return (
-    <Form>
+    <form>
       <label>Nombre: </label>
       <input 
         type="text"
@@ -23,6 +23,6 @@ export const FormReservation = () => {
       placeholder="Tipo de servicio"
       />
       <ButtonAcept/>
-    </Form>
+    </form>
   )
 }

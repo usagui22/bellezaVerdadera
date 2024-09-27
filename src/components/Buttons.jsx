@@ -12,7 +12,7 @@ export const ButtonReservation = () => {
 }
 export const ButtonAcept = () =>{
   return(
-    <button type="submit">
+    <button type="submit" className="boton-aceptar">
       <Link to={"/guardar-reserva"}>
         Agendar
       </Link>

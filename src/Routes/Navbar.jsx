@@ -13,13 +13,11 @@ const Navbar = () => {
       <div className="menu" onClick={()=>{setmenuOpen(!menuOpen);}}>
         <span></span>
         <span></span>
-        <span></span>
-        <span></span>
+        <span></span>        
       </div>
       <ul className={menuOpen? "open": ""}>
         <li><NavLink to={"/about"}>Acerca de</NavLink></li>
-        <li><NavLink to={"/galery"}>Galeria</NavLink></li>
-        <li><NavLink to={"/experience"}>Recomendaciones</NavLink></li>
+        <li><NavLink to={"/galery"}>Galeria</NavLink></li>        
         <li><NavLink to={"/contact"}>Contactanos</NavLink></li>
       </ul>
     </nav>
