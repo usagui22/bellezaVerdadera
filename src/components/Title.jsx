@@ -6,7 +6,7 @@ export const Title = () => {
     <div className="title-contenedor">
       <h1 className="title-name">Belleza Verdadera</h1>
       
-      <img src={logoBV} alt="logoBV" className="imagen-title"/>
+      <img src={logoBV} alt="Logo" className="imagen-title"/>
     </div>    
   )
 }

@@ -1,34 +1,25 @@
-import { useEffect } from "react"
-//import { getCarta } from "../../services/services"
-//import { useState } from "react"
-//import { Card } from "../Card";
+import "../../style/Galery.css"
+import data from "../../services/data/data.json"
 
-
-export const Galery = () => {
-  //const [lista, setLista]=useState([]);
-
-  useEffect(()=>{
-    const url="../../services/data/data.json";
-    fetch(url)
-    .then(response => response.json)
-    .then(json =>console.log(json))
-    // function rellenarLista(){
-    //   try {      
-    //     const data = getCarta()
-    //     setLista(data)
-    //     console.log(data)
-    //   } catch (error) {
-    //     console.log("error no existen elementos en lista de elementos", error)
-    //   }
-    // }
-    //  rellenarLista()
-  },[])
-
+export const Galery = () => {  
+  console.log(data.experiencies)
   return (
     <>
       <h3>Imagenes sobre Nuestras Clientas</h3>
       <div className="lista-cartas">
-        
+        {
+          data.experiencies.map(function(carta){
+            return(
+              <div className="carta-contenedor" key={carta.id}>
+                <img src={`../../assets/${carta.ruta_imagen}`} className="imagen_carta" alt={carta.nombre_imagen}/>
+              <div className="carta-informacion">
+                <h3>{carta.nombre_imagen}</h3>
+                <h3>{carta.descripcion}</h3>
+              </div>
+              </div>
+            )
+          })
+        }
       </div>
     </>
   )

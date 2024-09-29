@@ -1,0 +1,29 @@
+  //const [lista, setLista]=useState([]);
+
+  // useEffect(()=>{    
+  //   // fetch(url)
+  //   // .then(response => response.json)
+  //   // .then(json =>console.log(json))
+  //   // function rellenarLista(){
+  //   //   try {      
+  //   //     const data = getCarta()
+  //   //     setLista(data)
+  //   //     console.log(data)
+  //   //   } catch (error) {
+  //   //     console.log("error no existen elementos en lista de elementos", error)
+  //   //   }
+  //   // }
+  //   //  rellenarLista()
+  // },[lista])
+
+{
+          data.experiencies.map((c)=>{
+            <div className="carta-contenedor">       
+            <img src={c.ruta_imagen} alt={c.nombre_imagen}/>    
+            <div className="carta-informacion">
+              <h3>{c.nombre_imagen}</h3>
+              <h3>{c.descripcion}</h3>
+            </div>    
+            </div>
+          })
+        }

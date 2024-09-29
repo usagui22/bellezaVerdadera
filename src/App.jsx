@@ -7,8 +7,13 @@ function App() {
 
   return (
     <>      
+      
       <Navbar/>     
-      <Rutes/>               
+      
+      <div className='principal'>
+      <Rutes/>                 
+      </div>
+      
     </>
   )
 }

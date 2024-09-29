@@ -4,6 +4,7 @@ import { Contact } from "../components/Contact"
 import { ErrorPage } from "./ErrorPage"
 import { About } from "../components/About"
 import { Welcome } from "../components/Welcome"
+import { FormReservation } from "../components/Forms"
 
 
 export const Rutes = () => {
@@ -15,6 +16,7 @@ export const Rutes = () => {
       <Route path="/contact" element={<Contact />}/>
       <Route path="/error" element={<ErrorPage/>}/>
       <Route path="/about" element={<About />}/>
+      <Route path="/form-reservation" element={<FormReservation />}/>
     </Routes>
   )
 }

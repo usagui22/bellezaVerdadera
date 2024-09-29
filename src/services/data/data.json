@@ -1,27 +1,27 @@
 {
-    "experiecias":[
+    "experiencies" : [
         {
             "id":"1",
-            "ruta_imagen":"../assets/Flores.jpg",
-            "nombre":"Flores",
+            "ruta_imagen":"Flores.jpg",
+            "nombre_imagen":"Flores",
             "descripcion":"conjunto de tulipanes en un ramito de 3 flores con hojas"
         },
         {
             "id":"2",
-            "ruta_imagen":"../assets/Francesa.jpg",
-            "nombre":"Francesas",
+            "ruta_imagen":"Francesa.jpg",
+            "nombre_imagen":"Francesas",
             "descripcion":"francesas y piedras en un diseño discreto con rosa y blanco con piedras perla blanca con diamantitos"
         },
         {
             "id":"3",
-            "ruta_imagen":"../assets/Lineas-2.jpg",
-            "nombre":"Francesas y Lineas",
+            "ruta_imagen":"Lineas-2.jpg",
+            "nombre_imagen":"Francesas y Lineas",
             "descripcion":"lineas con francesa diagonal y brillitos de colores"
         },
         {
             "id":"4",
-            "ruta_imagen":"../assets/Lineas.jpg",
-            "nombre":"Lineas",
+            "ruta_imagen":"Lineas.jpg",
+            "nombre_imagen":"Lineas",
             "descripcion":"diseño de color negro con lineas blancas para diseños elegantes y discretos"
         }
     ]

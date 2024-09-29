@@ -16,6 +16,19 @@
     text-decoration: none;
     color: white;
 }
-.button-aceptar{
-    background-color: #FF5733;
+.boton-aceptar{
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+    display: inline-block;
+    border: none;    
+    background-color: #ff9800;
+  padding: 14px 28px; 
+  cursor: pointer; 
+  border-radius: 5px;
+  border: 2px solid #ff9800;
+}
+.boton-aceptar a{    
+    text-decoration: none;            
+    color: white;
 }
