@@ -4,8 +4,9 @@
 }
 .titulo-welcome{
     color: black;
-
+    padding: 5px;    
+    margin: 5px;
 }
 .imagen-saludo{
-    padding: 3.8rem;
+    padding: 5px;
 }
